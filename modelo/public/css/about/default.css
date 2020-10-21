@@ -1,0 +1,20 @@
+.row.col.l12.s12.about{
+    padding-top: 2vw;
+    background-image: url(/assets/images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.row.col.l12.s12.about .row.col.l10.container .col.l3{
+
+}
+.row.col.l12.s12.about .row.col.l10.container .col.l3 img{
+    border-radius: 0.3vw;
+    border: 1px solid white;
+    padding: 0.2vw;
+}
+
+.row.col.l12.s12.about .row.col.l10.container .col.l9{
+    background: whitesmoke;
+    border-radius: 0.2vw;
+}

@@ -1,0 +1,7 @@
+.row.col.l12.s12.agenda{
+    padding-top: 2vw;
+    background-image: url(/assets/images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}

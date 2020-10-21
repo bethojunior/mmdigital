@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+.middle .row.col.l7{
+    margin-top: 2vw;
+    font-family: "Montserrat";
+}
+.middle-two{
+    background-image: url("/assets/images/middle_ground.jpg");
+}
+.middle-two .col.l9{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.middle-two .col.l9 .card{
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 6px;
+    border: 1px solid #eee;
+    background: transparent;
+}
+.middle-two .col.l9 .card:hover{
+    padding: 0;
+    transition: 0.5s;
+}
+.card .card-image .card-title {
+    color: #a34863!important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .col.l12.s12.carousel.carousel-slider.initialized {
+        margin-top: 0 !important;
+    }
+
+    .middle{
+        margin-top: 0!important;
+    }
+
+    .middle .row.col.l7{
+        margin-top: 1vw;
+        font-family: "Montserrat";
+    }
+}

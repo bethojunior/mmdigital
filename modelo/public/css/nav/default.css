@@ -1,0 +1,47 @@
+nav{
+    background-color: #D6C6C6!important;
+    height: auto!important;
+    padding-top: 2vw!important;
+    color: black!important;
+
+}
+.header-nav{
+    background-color: #ba7c8e!important;
+    color: whitesmoke!important;
+    padding-top: 0.6vw!important;
+    padding-bottom: 0.6vw!important;
+    font-size: 1.3vh!important;
+}
+.tabs {
+    position: relative;
+    overflow-x: unset!important;
+    overflow-y: unset!important;
+    height: 48px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.tabs.tabs-transparent .indicator{
+    background-color: #a34863!important;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
+    color: whitesmoke!important;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a {
+    color: slategray!important;
+}
+.default-color{
+    color: #a34863!important;
+}
+@media screen and (max-width: 992px) {
+    #nav-slide{
+        display: none;
+    }
+}
+
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    box-shadow: transparent!important;
+    -webkit-box-shadow: transparent!important;
+}
