@@ -1,0 +1,50 @@
+.row.col.l12.s12.blog{
+    padding-top: 3vw;
+    background-image: url(/assets/images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.row.col.l12.s12.blog .row.col.l6.s12.container{
+    background-color: white;
+    border-radius: 0.2vw;
+}
+.row.col.l12.s12.blog .col.l4.s12.tools{
+
+}
+.row.col.l12.s12.blog .row.col.l4 .col.l12.s12.tools .col.l6.s12.search{
+    background-color: #D6C6C6!important;
+    color: white;!important;
+    border-radius: 0.3vw;
+    margin-bottom: 1vw;
+}
+.row.col.l12.s12.blog .row.col.l4 .col.l12.s12.tools .col.l6.s12.search .col.l12.s12 p label{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.row.col.l12.s12.blog .row.col.l4 .col.l12.s12.tools .col.l6.s12.search .col.l12.s12 p label:hover{
+    color: #BA7C8E;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.row.col.l12.s12.blog .row.col.l4 .col.l12.s12.tools .col.l6.s12.search .input-field.col.s12 label{
+    color: white;!important;
+}
+.row.col.l12.s12.blog .row.col.l6.s12.container .card.row.col.l12.s12{
+    /*background-color: rgba(214,198,198,1);*/
+    background-color:  #F6F3F1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.row.col.l12.s12.blog .row.col.l6.s12.container .card.row.col.l12.s12:hover{
+    /*background-color:  rgba(214,198,198,1);*/
+    cursor: pointer;
+    -webkit-box-shadow: 0px -1px 14px 0px rgba(214,198,198,1);
+    -moz-box-shadow: 0px -1px 14px 0px rgba(214,198,198,1);
+    box-shadow: 0px -1px 14px 0px rgba(214,198,198,1);
+    transition: 0.5s;
+}
+.row.col.l12.s12.blog .row.col.l6.s12.container .card.row.col.l12.s12 .row.col.l12.s12.content{
+    margin-top: 2vw;
+}
