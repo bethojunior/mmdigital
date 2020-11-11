@@ -55,5 +55,9 @@ tr{
 .zindex{
     z-index: 999!important;
 }
-
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
